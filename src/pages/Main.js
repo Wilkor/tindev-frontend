@@ -27,7 +27,7 @@ export default function Main({match}){
    },[match.params.id])
 
     useEffect(()=>{
-      const socket = io('http://localhost:3333', {
+      const socket = io('https://tindev-backend-wilkor.herokuapp.com', {
         query:{user:match.params.id}
       })
 
