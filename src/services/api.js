@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL:'https://tindev-backend-wilkor.herokuapp.com'
+    baseURL:'https://tindev-wilkor-backend.herokuapp.com'
 })
 
 
