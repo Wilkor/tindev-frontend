@@ -1,11 +1,11 @@
 import React, {useEffect,useState} from 'react';
-import dislike from  '../assets/dislike.svg'
-import logo from  '../assets/logo.svg'
-import like from  '../assets/like.svg'
-import api from '../services/api';
+import dislike from  '../../assets/dislike.svg'
+import logo from  '../../assets/logo.svg'
+import like from  '../../assets/like.svg'
+import api from '../../services/api';
 import {Link} from 'react-router-dom'
 import io from 'socket.io-client'
-import itsamatch from '../assets/itsamatch.png'
+import itsamatch from '../../assets/itsamatch.png'
 
 import './main.css'
 export default function Main({match}){
